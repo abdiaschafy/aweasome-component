@@ -16,8 +16,8 @@ import { SharedModule } from '../shared/shared.module';
   ],
   exports: [
     HeaderComponent,
-    SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ]
 })
 export class CoreModule { }
